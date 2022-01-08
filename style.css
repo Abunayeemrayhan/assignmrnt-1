@@ -1,3 +1,126 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
+.max-width{
+    width: 1200px;
+    margin: auto;
+}
+.flexible-container{
+    display: flex;
+}
+ 
+h1{
+    font-size: 50px;
+ }
+ p{
+     padding-right: 50px;
+ }
+.half-widdth{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-widdth img{
+    width: 70%;
+ }
+ .half-widdth span{
+     color: #ffad5a;
+ }
+
+ .link-button{
+     background-color: #ff5959;
+     padding: 10px 30px;
+     text-decoration: none;
+     color: white;
+     font-weight: 500;
+     border-radius: 5px;
+   }
+ .top-banner-section small{
+     display: inline-block;
+     margin-top: 30px;
+     
+ }
+ .top-banner-section h1{
+     border-left: 4px solid #ff5959;
+     
+     padding-left: 15px;
+     margin-bottom: 20px;
+     margin-top: 100px;
+ }
+
+.plan-item{
+    width: 30%;
+    background-color: #edf5f6;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.plan-section span{
+    color:#ffad5a ;
+}
+.plan-section h1{
+    text-align: center;
+    font-weight: bold;
+}
+.plan-item img{
+    width: 150px;
+}
+#plan-1{
+    background-color: ;
+}
+#plan-2{
+    background-color: #ffeeee;
+}
+#plan-3{
+    background-color: #fff4d6;
+}
+
+.develop-left{
+    width: 35%;
+    padding-left: 2%;
+}
+.develop-left img{
+    width: 100%;
+}
+.develop-right{
+    width: 55%;
+    padding-left: 60px;
+}
+.develop-section{
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+.community-section{
+    margin-top: 100px;
+    
+}
+.bg-v{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: bottom;
+     
+ }
+ .footer-section{
+     text-align: center;
+     background-color: #0b0d17;
+     padding: 20px;
+     margin-top: 100px;
+ }
+ .footer-section h1{
+     font-size: 35px;
+     color: white;
+ }
+ .footer-section span{
+     color: #f95757;
+ }
+ .footer-section p{
+     color: white;
+     font-weight: 300;
+     margin-left: 15px;
+ }
